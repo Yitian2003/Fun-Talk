@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_list" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_main"
+            android:gravity="center_horizontal"
+            android:text="WeChat"
+            android:textColor="@drawable/selector_text_color" />
+
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_contact"
+            android:gravity="center_horizontal"
+            android:text="Contact"
+            android:textColor="@drawable/selector_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_discovry"
+            android:gravity="center_horizontal"
+            android:text="Discovery"
+            android:textColor="@drawable/selector_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_me"
+            android:gravity="center_horizontal"
+            android:text="Profile"
+            android:textColor="@drawable/selector_text_color" />
+    </RadioGroup>
+
+</LinearLayout>
